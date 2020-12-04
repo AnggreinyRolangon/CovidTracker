@@ -20,12 +20,12 @@ const Global = () => {
 
     return (
         <div>
-            <h1>Indonesia</h1>
+            <i>Jumlah kasus secara Global</i>
             <div className= "box">
-                <h1 className="boxConfirmed">Positif {confirmed}</h1>
-                <h1 className="boxDeaths">Meninggal {deaths}</h1>
-                <h1 className="boxRecovered">Sembuh {recovered}</h1>
-                <i>Jumlah kasus secara Global</i>
+            <h1>Indonesia</h1>
+                <h1 className="box1">Positif {confirmed}</h1>
+                <h1 className="box2">Meninggal {deaths}</h1>
+                <h1 className="box3">Sembuh {recovered}</h1>
             </div>
         </div>
     );
