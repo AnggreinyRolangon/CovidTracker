@@ -37,7 +37,7 @@
   }
 } */
 
-.box1{
+.boxPositif{
   display :inline-block;
   margin-left:10px;
   width:165px;
@@ -47,7 +47,7 @@
   background:rgb(161, 5, 5);
   border:solid 3px black;
 }
-.box2{
+.boxMeninggal{
   display:inline-block;
   margin-left:10px;
   width:165px;
@@ -57,7 +57,7 @@
   background:rgb(48, 49, 48);
   border:solid 3px black;
 }
-.box3{
+.boxSembuh{
   display:inline-block;
   margin-left:10px;
   width:165px;

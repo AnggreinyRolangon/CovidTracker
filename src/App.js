@@ -6,27 +6,26 @@ import { Global, Indonesia, Provinsi } from './Pages'
 
 const App = () =>{
     return (
+        <center>
         <Router>
             <div>
                 <h1> Covid Tracker </h1>
                 <nav>
-                    <ul>
-                        <li>
+                        <tr>
                             <Link to="/Global">
                                 Global
                             </Link>
-                        </li>
-                        <li>
+                        </tr>
+                        <tr>
                             <Link to="/Indonesia">
                                 Indonesia
                             </Link>
-                        </li>
-                        <li>
+                        </tr>
+                        <tr>
                             <Link to="/Provinsi">
                                 Provinsi
                             </Link>
-                        </li>
-                    </ul>
+                        </tr>
                 </nav>
             </div>
             <Switch>
@@ -41,6 +40,7 @@ const App = () =>{
                 </Route>
             </Switch>
         </Router>
+        </center>
     )
 }
 
