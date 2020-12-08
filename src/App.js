@@ -11,7 +11,7 @@ const App = () =>{
             <div>
                 <h1> Covid Tracker </h1>
                 <nav>
-                        <tr>
+                       <tr>
                             <Link to="/Global">
                                 Global
                             </Link>

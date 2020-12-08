@@ -21,13 +21,12 @@ const Indonesia = () => {
     return (
         
         <div>
-            <i>Jumlah kasus seluruh Indonesia</i>
+            <i>Jumlah kasus seluruh :</i>
             <div className= "box">
             <h1>Indonesia</h1>
                 <h1 className="boxPositif">Positif {confirmed}</h1>
                 <h1 className="boxMeninggal">Meninggal {deaths}</h1>
-                <h1 className="boxSembuh">Sembuh {recovered}</h1>
-                
+                <h1 className="boxSembuh">Sembuh {recovered}</h1> 
             </div>
         </div>
     );

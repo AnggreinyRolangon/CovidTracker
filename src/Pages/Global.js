@@ -20,18 +20,17 @@ const Global = () => {
         
 
     return (
-        <center>
+             
         <div>
-            <i>Jumlah kasus secara Global</i>
-            <div className= "box">
-            <h1>Global</h1>
-                <h1 className="boxPositif">Positif <NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></th>
-                <h1 className="boxMeninggal">Meninggal <NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></th>
-                <h1 className="boxSembuh">Sembuh <NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></th>
-            </div>
+        <i>Jumlah kasus secara :</i>
+        <div className= "box">
+        <h1>Global</h1>
+            <h1 className="boxPositif">Positif {confirmed}</h1>
+            <h1 className="boxMeninggal"> Meninggal {deaths}</h1> 
+            <h1 className="boxSembuh">Sembuh {recovered}</h1>        
         </div>
-        </center>
-    );
+    </div>
+);
 };
 
 export default Global;
